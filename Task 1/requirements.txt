@@ -1,0 +1,6 @@
+pinecone-client
+langchain
+langchain-google-genai
+langchain-pinecone
+pypdf
+python-dotenv
