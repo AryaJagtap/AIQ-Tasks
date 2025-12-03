@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import re
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyCZjPd0-IO9l0rmLYXBP5XdfV_dXYCc2Xw"
+GEMINI_API_KEY = "USE API KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # RailRadar API Base URL

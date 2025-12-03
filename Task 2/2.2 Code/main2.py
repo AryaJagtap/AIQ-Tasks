@@ -13,11 +13,11 @@ Original file is located at
 
 from firecrawl import Firecrawl
 
-firecrawl = Firecrawl(api_key="fc-4cb302d10cac47b5b22d863dddb35866")
+firecrawl = Firecrawl(api_key="USE API KEY")
 
 from firecrawl import Firecrawl
 
-firecrawl = Firecrawl(api_key="fc-4cb302d10cac47b5b22d863dddb35866")
+firecrawl = Firecrawl(api_key="USE API KEY")
 
 # Scrape a website:
 doc = firecrawl.scrape("https://erail.in/train-running-status/12953", formats=["markdown", "html"])
@@ -37,7 +37,7 @@ import time
 # ----------------------------
 # Initialize Firecrawl
 # ----------------------------
-firecrawl = Firecrawl(api_key="fc-4cb302d10cac47b5b22d863dddb35866")
+firecrawl = Firecrawl(api_key="USE API KEY")
 
 # ----------------------------
 # List of train URLs
@@ -81,7 +81,7 @@ for url in train_urls:
 if all_data:
     df = pd.DataFrame(all_data)
     df.to_csv("all_trains_firecrawl.csv", index=False)
-    print("✅ All train data saved to all_trains_firecrawl.csv")
+    print(" All train data saved to all_trains_firecrawl.csv")
 else:
     print("No data scraped.")
 
@@ -92,7 +92,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import markdown
 
-firecrawl = Firecrawl(api_key="fc-4cb302d10cac47b5b22d863dddb35866")
+firecrawl = Firecrawl(api_key="USE API KEY")
 
 # 1. List of train numbers you want to scrape
 train_numbers = ["12953", "12954", "12009"]
@@ -159,8 +159,8 @@ import pandas as pd
 import json
 import re # Import the regular expression module
 
-firecrawl = Firecrawl(api_key="fc-4cb302d10cac47b5b22d863dddb35866")
-groq_client = Groq(api_key="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")
+firecrawl = Firecrawl(api_key="USE API KEY")
+groq_client = Groq(api_key="USE API KEY")
 
 def extract_structured(text):
     prompt = f"""
@@ -255,7 +255,7 @@ display(df.sample(5))
 
 from groq import Groq
 
-groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="USE API KEY")
 
 print("Fetching available Groq models...")
 
