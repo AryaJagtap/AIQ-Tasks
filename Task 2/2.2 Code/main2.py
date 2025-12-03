@@ -160,7 +160,7 @@ import json
 import re # Import the regular expression module
 
 firecrawl = Firecrawl(api_key="USE API KEY")
-groq_client = Groq(api_key="USE API KEY")
+# groq_client = Groq(api_key="YOUR_GROQ_API_KEY")
 
 def extract_structured(text):
     prompt = f"""
@@ -255,7 +255,7 @@ display(df.sample(5))
 
 from groq import Groq
 
-groq_client = Groq(api_key="USE API KEY")
+# groq_client = Groq(api_key="YOUR_GROQ_API_KEY")
 
 print("Fetching available Groq models...")
 
