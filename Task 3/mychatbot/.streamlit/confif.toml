@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#00ff51ff"           # Signal Green (for buttons/highlights)
+backgroundColor = "#1E2A38"        # Dark Steel Blue (Background)
+secondaryBackgroundColor = "#2C3E50" # Darker Grey (Sidebar)
+textColor = "#E0E0E0"              # Light Grey (Text)
+font = "sans serif"
+
+[server]
+headless = true

@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-google-genai
+langchain-pinecone
+langchain-community
+pinecone-client
+pymupdf
+langchain-huggingface
+sentence-transformers
+gTTS
+SpeechRecognition
+pandas
+pillow
+groq
+python-dotenv
